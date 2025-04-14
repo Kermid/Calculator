@@ -1,5 +1,5 @@
 import React,{useState} from "react"; 
-
+import './App.css'
 function Calculator()
 {
     const [input, setInput] = useState("");
@@ -24,7 +24,7 @@ function Calculator()
     return(
         <>
         <div className="outcome">
-            <p className="outcome">{outcome}</p>
+            <p>{outcome}</p>
             <p className="input">{input}</p>
         </div>
         <div className="buttons">
